@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "abogadotrabajadorchile - Digital Developers",
+    "url": "https://abogadotrabajadorchile.cl",
+    "logo": "https://abogadotrabajadorchile.cl/img/abogadotrabajadorchile_logo.png",
+    "description": "abogadotrabajadorchile desarrolla sistemas innovadores para la minería con 10 años de experiencia. Somos tu partner tecnológico para impulsar tu negocio en la era digital.",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Las Acacias 390",
+        "addressLocality": "Villa Alemana",
+        "addressCountry": "CL"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+56-9-99896880",
+        "contactType": "customer service",
+        "email": "colivares@abogadotrabajadorchile.cl",
+        "availableLanguage": ["Spanish", "English"]
+    },
+    "sameAs": [
+        "https://www.facebook.com/abogadotrabajadorchilesolutions/",
+        "https://www.twitter.com/abogadotrabajadorchileSolutions/",
+        "https://www.instagram.com/abogadotrabajadorchilesolutions/",
+        "https://www.linkedin.com/in/abogadotrabajadorchilesolutions/"
+    ],
+    "knowsAbout": [
+        "Desarrollo de Software",
+        "Análisis de Datos",
+        "Business Intelligence",
+        "Marketing Digital",
+        "Software para la Minería",
+        "Transformación Digital",
+        "Desarrollo Web"
+    ]
+}
