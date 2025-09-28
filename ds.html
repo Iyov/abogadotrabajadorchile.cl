@@ -52,10 +52,10 @@
     <meta property="og:description" content="Abogado especializado en derecho laboral chileno. Asesoría legal para trabajadores y empresas.">
     <meta property="og:site_name" content="Abogado Trabajador Chile">
     
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome_6.4.0_all.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <!-- Fuentes -->
     <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/font-awesome_6.4.0_all.min.css" />
+    <link rel="stylesheet" href="css/ds.css" />
 </head>
 <body>
     <!-- Barra de progreso -->
@@ -72,12 +72,12 @@
             
             <nav>
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#about">Quiénes Somos</a></li>
-                    <li><a href="#testimonios">Testimonios</a></li>
-                    <li><a href="#faq">Preguntas Frecuentes</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#inicio" data-lang="es">Inicio</a><a href="#inicio" data-lang="en" style="display:none">Home</a></li>
+                    <li><a href="#servicios" data-lang="es">Servicios</a><a href="#servicios" data-lang="en" style="display:none">Services</a></li>
+                    <li><a href="#about" data-lang="es">Quiénes Somos</a><a href="#about" data-lang="en" style="display:none">About Us</a></li>
+                    <li><a href="#testimonios" data-lang="es">Testimonios</a><a href="#testimonios" data-lang="en" style="display:none">Testimonials</a></li>
+                    <li><a href="#faq" data-lang="es">Preguntas Frecuentes</a><a href="#faq" data-lang="en" style="display:none">FAQ</a></li>
+                    <li><a href="#contacto" data-lang="es">Contacto</a><a href="#contacto" data-lang="en" style="display:none">Contact</a></li>
                 </ul>
             </nav>
             
@@ -355,31 +355,22 @@
                     
                     <div class="contact-links">
                         <a href="https://wa.me/56951089856" class="contact-link" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
                         </a>
                         <a href="mailto:contacto@poncedeleonycia.cl" class="contact-link">
-                            <i class="fas fa-envelope"></i> Email
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
                         </a>
                         <a href="https://abogadospyme.cl/" class="contact-link" target="_blank">
-                            <i class="fas fa-balance-scale"></i> AbogadosPYME
+                            <i class="fas fa-balance-scale"></i>
+                            <span>AbogadosPYME</span>
                         </a>
                         <a href="https://poncedeleonycia.cl/" class="contact-link" target="_blank">
-                            <i class="fas fa-building"></i> Ponce de León y CIA
-                        </a>
-                        <a href="https://github.com/Iyov/" class="contact-link" target="_blank">
-                            <i class="fab fa-github"></i> GitHub
+                            <i class="fas fa-building"></i>
+                            <span>Ponce de León y CIA</span>
                         </a>
                     </div>
-                </div>
-                <div class="contact-form">
-                    <form id="form-contacto">
-                        <input type="text" placeholder="Nombre completo" required>
-                        <input type="email" placeholder="Correo electrónico" required>
-                        <input type="tel" placeholder="Teléfono">
-                        <textarea placeholder="Describa su consulta" required></textarea>
-                        <button type="submit" class="btn" data-lang="es">Enviar Consulta</button>
-                        <button type="submit" class="btn" data-lang="en" style="display:none">Send Inquiry</button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -416,6 +407,9 @@
             </div>
             <div class="copyright">
                 <p>&copy; 2023 Cristian Ponce de León - Abogado Laboral. <span data-lang="es">Todos los derechos reservados.</span><span data-lang="en" style="display:none">All rights reserved.</span></p>
+            </div>
+            <div class="developer">
+                <p>Desarrollado por <a href="https://franciscobarrientos.cl" target="_blank">@Francisco Barrientos</a></p>
             </div>
         </div>
     </footer>

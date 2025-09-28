@@ -48,6 +48,9 @@ function setLanguage(lang) {
             element.style.display = 'none';
         }
     });
+    
+    // Actualizar el atributo lang del documento HTML
+    document.documentElement.lang = lang;
 }
 
 // Menú móvil
@@ -92,16 +95,6 @@ document.querySelectorAll('.faq-question').forEach(question => {
         const item = this.parentNode;
         item.classList.toggle('active');
     });
-});
-
-// Formulario de contacto
-document.getElementById('form-contacto').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const message = currentLanguage === 'es' 
-        ? 'Gracias por su consulta. Nos pondremos en contacto a la brevedad.' 
-        : 'Thank you for your inquiry. We will contact you shortly.';
-    alert(message);
-    this.reset();
 });
 
 // Cerrar menús al hacer clic fuera
