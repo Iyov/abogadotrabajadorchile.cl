@@ -127,7 +127,7 @@ section {
     transition: width 0.3s;
 }
 
-/* Botón ir arriba */
+/* Boton ir arriba */
 .scroll-to-top {
     position: fixed;
     bottom: 30px;
@@ -158,7 +158,7 @@ section {
     color: var(--dark-color);
 }
 
-/* Botón WhatsApp flotante */
+/* Boton WhatsApp flotante */
 .whatsapp-float {
     position: fixed;
     bottom: 30px;
@@ -402,7 +402,7 @@ nav ul li a:hover::after {
     color: var(--primary-color);
 }
 
-/* Quiénes Somos */
+/* Quienes Somos */
 .about {
     display: flex;
     align-items: center;
@@ -686,7 +686,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     nav {
         display: none;
         position: absolute;
@@ -742,6 +742,13 @@ footer {
     
     .contact-link i {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Agregado */
+    .logo h1 {
+        font-size: 1.2rem;
     }
 }
 

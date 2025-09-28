@@ -7,19 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://abogadotrabajadorchile.cl/#inicio</loc>
+    <loc>https://abogadotrabajadorchile.cl/#servicios</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://abogadotrabajadorchile.cl/#nosotros</loc>
+    <loc>https://abogadotrabajadorchile.cl/#about</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://abogadotrabajadorchile.cl/#abogado</loc>
+    <loc>https://abogadotrabajadorchile.cl/#testimonios</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abogadotrabajadorchile.cl/#faq</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
